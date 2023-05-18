@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.News-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.News-wrapper {
+  width: 500px;
+  background-color: antiquewhite;
+  color: black;
+}
+
+.News-search {
+  width: 475px;
+  height: 48px;
+  font-size: 24px;
+  margin-bottom: 32px;
+  padding: 16px;
+  font-weight: bold;
+}
+
+.News-image {
+  width: 500px;
+}
+
+.News-title {
+  height: 60px;
+  margin-top: 26px;
+  font-weight: bold;
+}
+
+.News-date {
+  font-style: italic;
+  margin-top: 10px;
+}
+
+.News-author {
+  margin-top: 10px;
+}
+
+.Button-view {
+  width: 120px;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  border-radius: 15px;
+  background: rgb(215, 176, 32);
+  background: radial-gradient(circle, rgb(215, 176, 32) 22%, rgb(164, 196, 42) 66%, rgb(172, 185, 84) 97%);
+}/*# sourceMappingURL=style.css.map */
